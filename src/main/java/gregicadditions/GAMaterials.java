@@ -552,7 +552,7 @@ public class GAMaterials implements IMaterialHandler {
     public static final SimpleDustMaterial LeadChloride = new SimpleDustMaterial("lead_chloride", 0xbf95f5, (short) 53, MaterialIconSet.SHINY, of(new MaterialStack(Lead, 1), new MaterialStack(Chlorine, 1)));
 
     public static final SimpleFluidMaterial ElectronDegenerateRheniumPlasma = new SimpleFluidMaterial("degenerate_rhenium_plasma", 0x6666FF);
-    public static final SimpleFluidMaterial LiquidHelium = new SimpleFluidMaterial("liquid_helium", Helium.materialRGB);
+    public static final SimpleFluidMaterial LiquidHelium = new SimpleFluidMaterial("liquid_helium", Helium.materialRGB).setFluidTemperature(4);
 
     public static final SimpleDustMaterial ZirconiumTetrafluoride = new SimpleDustMaterial("zirconium_tetrafluoride", 0xeeeeee, (short) 56, MaterialIconSet.DULL, of(new MaterialStack(Zirconium, 1), new MaterialStack(Fluorine, 6)));
     public static final SimpleDustMaterial BariumDifluoride = new SimpleDustMaterial("barium_difluoride", 0xdddddd, (short) 57, MaterialIconSet.DULL, of(new MaterialStack(Barium, 1), new MaterialStack(Fluorine, 2)));
